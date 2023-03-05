@@ -159,13 +159,15 @@ import 'package:permission_handler/permission_handler.dart';
             GoogleMap(
               // rotateGesturesEnabled: false,
               // scrollGesturesEnabled: false,
-              // zoomGesturesEnabled: false,
+              zoomGesturesEnabled: false,
               // tiltGesturesEnabled: false,
               zoomControlsEnabled: false,
               compassEnabled: true,
               mapToolbarEnabled: false,
               trafficEnabled: true,
               buildingsEnabled: true,
+             
+  
               initialCameraPosition: CameraPosition(
               // target: position, 
               target: currentLocation,
